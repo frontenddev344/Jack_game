@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bruce Forever';
+    src: url('BruceForever-Regular.eot');
+    src: url('BruceForever-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BruceForever-Regular.woff2') format('woff2'),
+        url('BruceForever-Regular.woff') format('woff'),
+        url('BruceForever-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

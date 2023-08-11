@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MODERN WARFARE';
+    src: url('MODERNWARFARE.eot');
+    src: url('MODERNWARFARE.eot?#iefix') format('embedded-opentype'),
+        url('MODERNWARFARE.woff2') format('woff2'),
+        url('MODERNWARFARE.woff') format('woff'),
+        url('MODERNWARFARE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

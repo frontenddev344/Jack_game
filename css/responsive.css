@@ -1,0 +1,298 @@
+@media only screen and (max-width: 991px) {
+    .text-left {
+        text-align: left !important;
+        display: flex;
+        justify-content: end;
+    }
+
+    div#mySidenavs {
+        display: block;
+    }
+
+    .sidenavs .closebtn {
+        display: block;
+        line-height: 25px;
+        right: 7px;
+        margin: 0;
+    }
+
+    ul.menu_navigation {
+        display: inline-block;
+        width: 100%;
+    }
+
+    ul.menu_navigation li,
+    ul.top-menu li {
+        padding: 0;
+        border-bottom: 1px solid #ddddddc7;
+    }
+
+    .sidenavs a {
+        margin: 0;
+    }
+
+    ul.menu-btns li {
+        padding: 10px 8px;
+        width: 100%;
+    }
+
+    li.become-member .btn {
+        margin-right: 0;
+    }
+
+    span.toggle_menu {
+        display: inline-block;
+        color: #17a3df;
+        font-size: 30px;
+        position: relative;
+        right: 0;
+        top: 0px;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        background: #02001d;
+    }
+    .sign_btn ul {
+        display: block;
+        margin: 25px 13px;
+    }
+    .sign_btn ul li {
+        margin-bottom: 25px;
+    }
+    .sign_btn li:first-child {
+        margin-right: 0;
+    }
+
+    ul.menu_navigation {
+        padding-top: 50px;
+    }
+
+    .sidenavs a,
+    ul.top-menu a {
+        font-size: 16px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+
+        margin: 18px;
+    }
+
+    .sidenavs .menu-btns a {
+        display: block;
+        text-align: center;
+    }
+
+    .top-brs.for-mob,
+    .menu-btns {
+        display: block;
+    }
+
+    .top-brs.for-desk {
+        display: none;
+    }
+
+    .top-brs .top-menu {
+        display: block;
+        border-bottom: 0;
+        padding: 40px 0 0;
+    }
+
+    li.lst-btn {
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    li.lst-btn a {
+        text-align: center;
+        justify-content: center;
+    }
+   
+}
+
+/* page responsive */
+@media only screen and (max-width: 991px) {
+    .gaming_sec {
+        position: relative;
+        padding: 35px 0;
+    }
+    .gamme_wrrap button {
+        width: 100%;
+    }
+    /* .game_img img {
+        width: 100%;
+        max-width: 420px;
+    } */
+    .gaming_sec {
+        background-position: 51% 100%;
+    } 
+    .games_hedr h2 {
+        font-size: 28px;
+        line-height: 40px;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-img img {
+        width: 100%;
+        max-width: 385px;
+    }
+    .banner-img {
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+
+    .baner_inner {
+        text-align: center;
+    }
+    .banner_heading h1 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .baner_inner p {
+        font-size: 18px;
+    }
+    .animation-coint {
+        top: 25%;
+        left: 16%;
+    }
+    .banner-img {
+        margin-top: 50px;
+    }
+    .testimonials-container {
+        margin-top: -30px;
+    }
+    .poercractor {
+        position: relative;
+        z-index: 99;
+    }
+    section#testinmonia_sec {
+        padding-bottom: 60px;
+    }
+    section#testinmonia_sec {
+        padding-bottom: 60px;
+    }
+    .term_condition_bar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .social_links ul {
+        justify-content: center;
+        margin-top: 45px;
+    }
+    footer {
+        padding: 45px 0;
+    }
+    .about_bar {
+        text-align: center;
+        margin-top: 75px;
+    }
+    .games_hedr h2 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .our_feature {
+        padding: 25px 0 55px 0;
+    }
+    .games_hedr h2 {
+        padding: 0  0 20px 0;
+    }
+    .poercractor {
+        text-align: center;
+    }
+    .email-form-bar {
+        height: 300px;
+        padding: 0 25px;
+    }
+
+
+
+
+  
+}
+
+
+@media (max-width: 575px) {
+    .banner_heading h1 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .animation-coint {
+        top: 35%;
+        left: 6%;
+    }
+    .testimonials-container {
+        padding: 18px 8px 15px;
+        max-width: 100%;
+        border-radius: 35px;
+    }
+    .games_hedr h2 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .game_heading h4 {
+        color: #ffbf34;
+        font-size: 14px;
+    }
+    .feature_cart_main {
+        display: block;
+        padding: 35px 0px;
+        height: auto;
+        margin: 35px 0px;
+    }
+    .fea_img {
+        width: 100%;
+        justify-content: center;
+    }
+    .fea_content {
+        padding-left: 0;
+        width: 100%;
+        color: #fff;
+        padding: 0 16px;
+        text-align: center;
+    }
+    .gama_cractor {
+        text-align: center;
+        margin-bottom: -94px;
+        margin-top: 45px;
+    }
+    .email-form-bar {
+        height: 300px;
+        padding: 0px 5px;
+    }
+    .term_condition_bar ul li a {
+        padding: 0 0px 0 0;
+    }
+    footer li.bord a {
+        padding-right: 20px;
+    }
+    .feature_cart_main {
+        margin: 25px 0px;
+    }
+    .testimonials-container {
+        margin: 0;
+    }
+    .poercractor {
+        margin-bottom: -35px;
+    }
+    section.banner_sec {
+    padding-top: 115px;
+}
+
+
+}
+
+@media (max-width: 374px) {
+
+}
+
